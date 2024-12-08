@@ -6,7 +6,7 @@ import { Mail } from "lucide-react";
 export default function Footer() {
     return (
     <div className="w-screen h-[589px] py-16">
-    <div className="w-[1240px] h-[180px] bg-black rounded-[20px] flex items-center justify-around relative top-24 left-20">
+    <div className="w-[1240px] h-[180px] bg-black rounded-[20px] flex items-center justify-around relative top-24 left-60">
     <h4 className="text-[40px] font-extrabold text-white">STAY UPTO DATE ABOUT <br /> OUR LATEST OFFERS</h4>
     <div className="flex flex-col gap-2">
     <div className="w-[349px] h-[48px] bg-white rounded-[62px] flex items-center gap-4 px-6">
