@@ -5,8 +5,8 @@ import { Button } from "@/components/ui/button"
 export default function HeroSection() {
   return (
     <div>
-    <div className="w-screen h-[600px] bg-[#F2F0F1] relative top-16 px-6 sm:px-12 lg:px-20 py-16 lg:py-24">
-      <div className="flex flex-col  lg:flex-row justify-between items-center lg:items-start">
+    <div className="w-screen h-[770px] bg-[#F2F0F1] relative top-16 px-6 sm:px-12 lg:px-28 py-16 lg:py-24">
+      <div className="flex flex-col lg:flex-row justify-between items-center lg:items-start">
         {/* Left Content */}
         <div className="flex flex-col gap-6 text-center lg:text-left">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold">
@@ -20,7 +20,6 @@ export default function HeroSection() {
             <Button className="w-40 sm:w-52 h-10 sm:h-12 rounded-full">Shop Now</Button>
           </div>
         </div>
-
         {/* Right Image */}
         <Image
           src="/star2.svg"
@@ -31,10 +30,10 @@ export default function HeroSection() {
           />
           <Image
             src="/model.png"
-            width={620}
+            width={790}
             height={1}
             alt="Model Image"
-            className="max-w-sm sm:max-w-md lg:max-w-2xl relative bottom-14 left-24"
+            className="max-w-sm sm:max-w-md lg:max-w-2xl relative bottom-7 left-24"
           />
           <Image
           src="/star1.svg"
@@ -43,7 +42,6 @@ export default function HeroSection() {
           alt="star1"
           className="relative right-14"
           />
-        
       </div>
     </div>
     <div className="w-screen bg-black flex items-center justify-around relative py-7 ">

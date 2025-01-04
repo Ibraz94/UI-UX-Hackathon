@@ -1,22 +1,26 @@
 import Image from "next/image";
 import { FaGithub, FaInstagram, FaFacebook, FaTwitter } from "react-icons/fa";
-import { Button } from "./ui/button";
 import { Mail } from "lucide-react";
 
 export default function Footer() {
     return (
-    <div className="w-screen h-[589px] py-16">
-    <div className="w-[1240px] h-[180px] bg-black rounded-[20px] flex items-center justify-around relative top-24 left-36">
-    <h4 className="text-[40px] font-extrabold text-white">STAY UPTO DATE ABOUT <br /> OUR LATEST OFFERS</h4>
-    <div className="flex flex-col gap-2">
-    <div className="w-[349px] h-[48px] bg-white rounded-[62px] flex items-center gap-4 px-6">
-    <Mail className="opacity-50"/>
-    <input
-    type="text"
-    placeholder="Enter Your Email Address"
-    />
+    <div className="w-screen py-16">
+   <div className="w-full max-w-[1240px] h-auto md:h-[180px] bg-black rounded-[20px] flex flex-col md:flex-row items-center justify-around px-6 py-8 md:py-0 mx-auto relative top-24">
+   <h4 className="text-[24px] md:text-[40px] font-extrabold text-white text-center md:text-left">
+    STAY UP TO DATE ABOUT <br className="hidden md:block" /> OUR LATEST OFFERS
+    </h4>
+    <div className="flex flex-col gap-4 w-full md:w-auto mt-6 md:mt-0">
+    <div className="w-full md:w-[349px] h-[48px] bg-white rounded-[62px] flex items-center gap-4 px-6">
+      <Mail className="opacity-50" />
+      <input
+        type="text"
+        placeholder="Enter Your Email Address"
+        className="flex-1 bg-transparent outline-none placeholder-opacity-50"
+      />
     </div>
-    <Button className="w-[349px] h-[48px] bg-white text-black rounded-[62px]">Subscribe To Newsletter</Button>
+    <button className="w-full md:w-[349px] h-[48px] bg-white text-black rounded-[62px] font-medium">
+      Subscribe To Newsletter
+    </button>
     </div>
     </div>
     <div className="w-screen h-[499px] bg-[#F0F0F0] flex flex-col items-center justify-center">
