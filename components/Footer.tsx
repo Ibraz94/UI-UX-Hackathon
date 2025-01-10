@@ -4,8 +4,8 @@ import { Mail } from "lucide-react";
 
 export default function Footer() {
     return (
-    <div className="w-screen py-16">
-   <div className="w-full max-w-[1240px] h-auto md:h-[180px] bg-black rounded-[20px] flex flex-col md:flex-row items-center justify-around px-6 py-8 md:py-0 mx-auto relative top-24">
+    <div className="w-screen py-18">
+   <div className="w-full max-w-[1240px] h-screen md:h-[180px] bg-black rounded-[20px] flex flex-col md:flex-row items-center justify-around px-6 py-8 md:py-0 mx-auto relative top-24">
    <h4 className="text-[24px] md:text-[40px] font-extrabold text-white text-center md:text-left">
     STAY UP TO DATE ABOUT <br className="hidden md:block" /> OUR LATEST OFFERS
     </h4>

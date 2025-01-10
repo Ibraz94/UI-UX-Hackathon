@@ -1,5 +1,6 @@
 import { ChevronRight, Star, Circle, Minus, Plus, BadgeCheck, } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 
 
@@ -17,11 +18,39 @@ export default function ProductDetails() {
         <div className="flex gap-6 justify-center">
         <div className="flex gap-4">
         <div className="flex flex-col gap-4">
-        <div className="w-[152px] h-[167px] bg-[#F0EEED] rounded-2xl"></div>
-        <div className="w-[152px] h-[167px] bg-[#F0EEED] rounded-2xl"></div>
-        <div className="w-[152px] h-[167px] bg-[#F0EEED] rounded-2xl"></div>
+        <div className="w-[152px] h-[167px] bg-[#F0EEED] rounded-2xl flex items-center justify-center">
+        <Image
+            src="/T-Shirt.png"
+            width={408}
+            height={100}
+            alt="T-Shirt"
+            />
         </div>
-        <div className="w-[444px] h-[530px] bg-[#F0EEED] rounded-2xl"></div>
+        <div className="w-[152px] h-[167px] bg-[#F0EEED] rounded-2xl flex items-center justify-center">
+        <Image
+            src="/T-Shirt.png"
+            width={408}
+            height={100}
+            alt="T-Shirt"
+            />
+        </div>
+        <div className="w-[152px] h-[167px] bg-[#F0EEED] rounded-2xl flex items-center justify-center">
+        <Image
+            src="/T-Shirt.png"
+            width={408}
+            height={100}
+            alt="T-Shirt"
+            />
+        </div>
+        </div>
+        <div className="w-[444px] h-[530px] bg-[#F0EEED] rounded-2xl flex items-center justify-center">
+            <Image
+            src="/T-Shirt.png"
+            width={408}
+            height={100}
+            alt="T-Shirt"
+            />
+        </div>
         </div>
         <div className="flex flex-col justify-between">
         <h1 className="text-[40px] font-extrabold">ONE LIFE GRAPHIC T-SHIRT</h1>

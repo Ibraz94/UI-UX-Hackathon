@@ -17,7 +17,7 @@ export default function NewArrival() {
                     alt="T-Shirt"
                     />
                 </div>
-                <Link href="/category-page">
+                <Link href="/product-details">
                 <h1 className="text-xl font-semibold">T-Shirt With Tape Details</h1> 
                 </Link>
                 <div className="flex">
